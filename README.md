@@ -66,25 +66,25 @@ The built application will be available in the `release/` directory.
 
 ```
 claude-code-ui/
-├── src/                    # React application source
-│   ├── components/         # React components
-│   │   ├── ChatArea.tsx   # Main chat display area
-│   │   ├── MessageBubble.tsx # Individual message display
-│   │   ├── MessageInput.tsx # Message input with file attachments
+├── src/                       # React application source
+│   ├── components/            # React components
+│   │   ├── ChatArea.tsx       # Main chat display area
+│   │   ├── MessageBubble.tsx  # Individual message display
+│   │   ├── MessageInput.tsx   # Message input with file attachments
 │   │   ├── ProjectManager.tsx # Project management interface
-│   │   └── Sidebar.tsx    # Navigation sidebar
-│   ├── utils/             # Utility functions
-│   │   └── storage.ts     # Local storage management
-│   ├── types.ts           # TypeScript type definitions
-│   ├── App.tsx            # Main application component
-│   └── main.tsx           # React application entry point
-├── electron/              # Electron main process
-│   ├── main.ts            # Main Electron process
-│   ├── preload.ts         # Preload script for security
-│   └── tsconfig.json      # Electron TypeScript config
-├── assets/icons/          # Application icons
-├── scripts/               # Build and utility scripts
-└── dist/                  # Built application files
+│   │   └── Sidebar.tsx        # Navigation sidebar
+│   ├── utils/                 # Utility functions
+│   │   └── storage.ts         # Local storage management
+│   ├── types.ts               # TypeScript type definitions
+│   ├── App.tsx                # Main application component
+│   └── main.tsx               # React application entry point
+├── electron/                  # Electron main process
+│   ├── main.ts                # Main Electron process
+│   ├── preload.ts             # Preload script for security
+│   └── tsconfig.json          # Electron TypeScript config
+├── assets/icons/              # Application icons
+├── scripts/                   # Build and utility scripts
+└── dist/                      # Built application files
 ```
 
 ### Technologies Used
